@@ -14,10 +14,11 @@ function App() {
         <Form 
         addedMember={addedMember} setAddedMember={setAddedMember}
         />
-        <h4>Members</h4>
         <div>
+        <h4>Members</h4>
+        
             {addedMember.map(member=>(
-                <div key={member.id}>
+                <div>
                     <p>Name: {member.name}</p>
                     <p>Email: {member.email}</p>
                     <p>Role: {member.role}</p>
