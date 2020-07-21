@@ -23,7 +23,7 @@ const Form=(props=>{
             Name 
             <input 
                 type='text' 
-                placeHolder='Full Name'  
+                placeholder='Full Name'  
                 name='name' 
                 id='nameInput' 
                 value={teamMember.name} 
@@ -34,7 +34,7 @@ const Form=(props=>{
             Email 
             <input 
                 type='text' 
-                placeHolder='Email' 
+                placeholder='Email' 
                 name='email' 
                 id='emailInput' 
                 value={teamMember.email} 

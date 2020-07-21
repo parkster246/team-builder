@@ -7,7 +7,8 @@ function App() {
   
   return (
     <div className="App">
-    <body>
+    
+
         <h1>Team Member List!</h1>
        
         <Form 
@@ -23,7 +24,7 @@ function App() {
                 </div>
             ))}
         </div>
-      </body>
+      
     </div>
   );
 }
