@@ -55,7 +55,31 @@ body:hover{
   background-color:black;
   color:white;
 }
+@keyframes slidebg {
+  0%{
+  background-image:linear-gradient(to right, red, orange, yellow, green, red);
+
+  }
+  25% {
+  background-image:linear-gradient(to right,  orange, yellow, green, red);
+
+  }
+  50%{
+  background-image:linear-gradient(to right, yellow, green, red, orange);
+
+  }
+  75%{
+  background-image:linear-gradient(to right,  green, red, orange, yellow);
+
+  }
+  100%{
+  background-image:linear-gradient(to right,  green, red, orange, yellow);
+
+  }
+}
+
+
 button:hover {
   background-image:linear-gradient(to right, red, orange, yellow, green, red);
-  animation:slidebg 2s linear infinite;
+  animation:slidebg 500ms linear infinite;
 }
